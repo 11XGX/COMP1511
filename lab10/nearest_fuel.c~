@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include "trader_bot.h"
+
+int nearest_fuel(struct bot *b) {
+	int distance, distanceCounter1, distanceCounter2;
+	int originalLocation = b->location->name;
+	int cycleLocation1, cycleLocation2;
+	
+	if (originalLocation == LOCATION_PETROL_STATION) {
+		distance = 0;
+	} else {
+		cycleLocation1 = originalLocation;
+		cycleLocation2 = originalLocation;
+		while (originalLocation != LOCATION_PETROL_STATION) {
+			// Cycle through next locations.
+		}
+		
+		while (originalLocation != 
+	
+	}
+	
+	
+	return distance;
+}
